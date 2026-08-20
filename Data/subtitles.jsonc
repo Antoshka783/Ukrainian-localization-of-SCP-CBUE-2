@@ -1,0 +1,3910 @@
+///////////////////////
+////// SUBTITLES //////
+///////////////////////
+
+/*
+	"PATH\\TO\\SOUND": [
+		{
+			"text": "This text appears as soon as the sound plays."
+		},
+		{
+			"text": "This text appears 2.3 seconds after the sound first plays.",
+			"delay": 2.3
+		},
+		{
+			"text": "This text appears after 3.3 seconds. It is orange.",
+			"delay": 3.3,
+			"color": "classd"
+		},
+		{
+			"text": "This line should stay on screen for 10+5 seconds.",
+			"delay": 4.0,
+			"length": 10.0
+		}
+	],
+*/
+
+{
+	"fallback": true, // If you want the game shows the localized subtitles only, set this as false.
+	"colors": {
+		// Put RGB-Colors that subtitles used here
+		"announcement": [130, 130, 130],
+		"chaos": [0, 130, 0],
+		"crew": [135, 160, 130],
+		"classd": [225, 120, 0],
+		"guard": [180, 180, 150],
+		"janitor": [120, 140, 170],
+		"mtf": [100, 60, 45],
+		"nazi": [130, 0, 20],
+		"035": [150, 0, 0],
+		"049": [50, 70, 70],
+		"066": [180, 35, 60],
+		"096": [230, 230, 230],
+		"106": [10, 5, 5],
+		"682": [180, 160, 135],
+		"860-2": [110, 55, 80],
+		"1499-1": [40, 40, 40]
+	},
+	/* D-9341 */
+	"SFX\\Character\\D9341\\Cough0.ogg": [
+		{
+			"text": "*КАХИКАЄ*",
+			"length": 2.0,
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\D9341\\Cough1.ogg": [
+		{
+			"text": "*КАХИКАЄ*",
+			"length": 2.0,
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\D9341\\Cough2.ogg": [
+		{
+			"text": "*КАХИКАЄ*",
+			"length": 2.0,
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\D9341\\Cough0Gas.ogg": [
+		{
+			"text": "*КАХИКАЄ*",
+			"length": 2.0,
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\D9341\\Cough1Gas.ogg": [
+		{
+			"text": "*БУХИКАЄ*",
+			"length": 2.0,
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\D9341\\Cough2Gas.ogg": [
+		{
+			"text": "*ПИРХАЄ*",
+			"length": 2.0,
+			"color": "classd"
+		}
+	],
+	/* INTRO */
+	/* AGENT ULGRIN */
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\BeforeDoorOpen.ogg": [
+		{
+			"text": "Диспетчерській, це агент Ульгрін. Запит на відкриття камери 3-11.",
+			"delay": 3.7,
+			"color": "guard",
+			"length": 4.0
+		},
+		{
+			"text": "Виконується.",
+			"delay": 8.9,
+			"length": 0.91
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\ExitCell.ogg": [
+		{
+			"text": "Гей, в них для тебе є робота. Зроби мені послугу, виходь з камери.",
+			"delay": 1.37,
+			"color": "guard",
+			"length": 4.14
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\ExitCellRefuse0.ogg": [
+		{
+			"text": "Ти що, тупий чи що? Я сказав, виходь з камери. Якщо ти не вийдеш, я надеру тобі дупу.",
+			"color": "guard",
+			"length": 6.05
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\ExitCellRefuse1.ogg": [
+		{
+			"text": "Слухай, друже, в мене нема цілого дня. Я намагаюся бути ввічливим. Якщо ти не вийдеш з камери, я тобі в'їбу.",
+			"color": "guard",
+			"length": 5.6
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\CellGas0.ogg": [
+		{
+			"text": "*СМІХ* Ти, мабуть, найдурніший піддослідний у нашому житті! Ну що ж, зачиніть двері та відкрийте газ.",
+			"color": "guard",
+			"length": 7.05
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\CellGas1.ogg": [
+		{
+			"text": "Хах. Я трохи розчарований, що ти не чинив опір. Я так і чекав, коли вдарю тобі по обличчю.",
+			"color": "guard",
+			"length": 5.71
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\Escort0.ogg": [
+		{
+			"text": "Просто йди за мною. О, і до речі, ми маємо право вбивати будь-яких непокірних піддослідних. Тож не роби дурниць.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\Escort1.ogg": [
+		{
+			"text": "Просто йди за мною. О, і до речі, ми маємо право, е-е, знищувати будь-яких непокірних піддослідних. Тож я б радив не робити дурниць.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortRun.ogg": [
+		{
+			"text": "Гей, йолопе! Ти йдеш не в тому напрямку! Йди сюди чорт забирай, негайно.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortRefuse0.ogg": [
+		{
+			"text": "Поспішай! На тебе чекають!",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortRefuse1.ogg": [
+		{
+			"text": "Дивись, чувак, я вже ненавиджу свою роботу. Чому ти мені її ускладнюєш?",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortPissedOff0.ogg": [
+		{
+			"text": "Я не в настрої для цього лайна. Не маю нічого проти того, щоб пальнути тобі у лоба, якщо ти не почнеш співпрацювати.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortPissedOff1.ogg": [
+		{
+			"text": "Я не в настрої для цього лайна! Я без проблем прострелю тобі голову, якщо ти не почнеш співпрацювати.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortKill0.ogg": [
+		{
+			"text": "Гаразд, знаєш що, добре. Хай так і буде. Тоді ми просто знайдемо когось іншого.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortKill1.ogg": [
+		{
+			"text": "Гаразд, добре. Хай так і буде. Тоді ми просто знайдемо когось іншого.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortTerminated.ogg": [
+		{
+			"text": "Я позбудуся тіла. Можеш піти і привести мені іншого...",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortDone0.ogg": [
+		{
+			"text": "Ну, ми тут. Просто заходь туди, виконуй всі інструкції і... мабуть, у тебе все буде добре.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortDone1.ogg": [
+		{
+			"text": "Ну, ми прийшли. Я все ще розчарований, що не зміг тебе вдарити, але... байдуже.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortDone2.ogg": [
+		{
+			"text": "Ну, ми прийшли. Я все ще розчарований, що не зміг вдарити тобі по обличчю, але... байдуже.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortDone3.ogg": [
+		{
+			"text": "Просто заходь туди та виконуй усі інструкції, і, хм... мабуть, у тебе все буде добре. А може, й ні. У будь-якому разі, мені байдуже.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortDone4.ogg": [
+		{
+			"text": "Ну, не гай час. Вони чекають на тебе внизу, в камері.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\WhatThe0b.ogg": [
+		{
+			"text": "От лайно!",
+			"delay": 1.15,
+			"color": "guard"
+		},
+		{
+			"text": "Гаразд, зрозумів.",
+			"delay": 7.78,
+			"color": "guard"
+		}
+	],
+	/* ESCAPE GUARD */
+	"SFX\\Room\\Intro\\Guard\\PlayerEscape.ogg": [
+		{
+			"text": "Що за чорт? Гей! Стій! Він тікає!",
+			"color": "guard"
+		}
+	],
+	/* GUARD CONVERSATION */
+	"SFX\\Room\\Intro\\Guard\\Conversation0a.ogg": [
+		{
+			"text": "Так, кхм... як справи?",
+			"color": "guard"
+		},
+		{
+			"text": "Ну так, з ким ти думаєш, я розмовляю? З цим хлопцем, з обличчям яке можна вдарити? Звісно я розмовляю з тобою.",
+			"delay": 5.3,
+			"color": "guard"
+		},
+		{
+			"text": "Ну так. Це твій перший робочий день тут.",
+			"delay": 15.4,
+			"color": "guard"
+		},
+		{
+			"text": "Справді? Ого. Це дивно.",
+			"delay": 23.65,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation0b.ogg": [
+		{
+			"text": "Е-ем... т-ти розмовляєш зі мною?",
+			"delay": 3.2,
+			"color": "guard"
+		},
+		{
+			"text": "Оу! Я просто трохи здивований. Здається, ти вперше зі мною розмовляєш.",
+			"delay": 10.33,
+			"color": "guard"
+		},
+		{
+			"text": "Ем... насправді ми працюємо разом вже близько п'яти місяців.",
+			"delay": 18.95,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation1a.ogg": [
+		{
+			"text": "Ем... то ти бачив якісь хороші фільми останнім часом?",
+			"color": "guard"
+		},
+		{
+			"text": "Так? Які саме?",
+			"delay": 7.19,
+			"color": "guard"
+		},
+		{
+			"text": "Ем, ти жартуєш?",
+			"delay": 12.5,
+			"color": "guard"
+		},
+		{
+			"text": "Уся твоя робота обертається навколо жахів та наукової фантастики! Тільки, знаєш, це не фантастика.",
+			"delay": 15.93,
+			"color": "guard"
+		},
+		{
+			"text": "Так, слухай, без образ, але я вже втратив інтерес до того, про що ти говориш.",
+			"delay": 24.73,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation1b.ogg": [
+		{
+			"text": "Ем, я... я не дуже дивлюся фільми. Я здебільшого читаю книги.",
+			"delay": 3.27,
+			"color": "guard"
+		},
+		{
+			"text": "Ем, жахи. Наукова фантастика. Щось подібне.",
+			"delay": 9.0,
+			"color": "guard"
+		},
+		{
+			"text": "Що?",
+			"delay": 14.8,
+			"color": "guard"
+		},
+		{
+			"text": "Ну, насправді, я планую написати книгу про свою...",
+			"delay": 22.5,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation2a.ogg": [
+		{
+			"text": "Чувак, я голодний. Гей, сьогодні в кафетерії день піци, так?",
+			"color": "guard"
+		},
+		{
+			"text": "О курва. Що ж, мій день зіпсований. Єдина причина, чому я досі сюди приходжу, це піца. Я не знаю, що в цій піці такого, але вона смачна.",
+			"delay": 7.65,
+			"color": "guard"
+		},
+		{
+			"text": "З іншого боку, запіканка з тунця — це огидна гидота, і її слід замкнути разом з рештою цих виродків.",
+			"delay": 16.5,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation2b.ogg": [
+		{
+			"text": "Ем, насправді, я думаю, це запіканка з тунця.",
+			"delay": 4.6,
+			"color": "guard"
+		},
+		{
+			"text": "Ем-м... гаразд?",
+			"delay": 22.93,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation3a.ogg": [
+		{
+			"text": "В тебе ж немає дівчини, так?",
+			"color": "guard"
+		},
+		{
+			"text": "Ну, я точно не читач думок. Інакше я б був замкнений тут. Тож, так, я б сказав, що це досить очевидно.",
+			"delay": 3.3,
+			"color": "guard"
+		},
+		{
+			"text": "Скажи їй, що працюєш у якійсь кав'ярні чи деінде.",
+			"delay": 13.51,
+			"color": "guard"
+		},
+		{
+			"text": "Е-е, я не знаю! Просто... скажи їй, що це, е-е... кетчуп.",
+			"delay": 23.55,
+			"color": "guard"
+		},
+		{
+			"text": "Ох... просто забудь про це.",
+			"delay": 30.45,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation3b.ogg": [
+		{
+			"text": "Це так очевидно?",
+			"delay": 1.94,
+			"color": "guard"
+		},
+		{
+			"text": "Ну, як я взагалі маю знайти дівчину, коли в мене така робота? Я маю на увазі, що я не можу їй про неї розповісти.",
+			"delay": 9.14,
+			"color": "guard"
+		},
+		{
+			"text": "Ну, а що, якби я випадково забув помити руки тут, на роботі, і прийшов б додому, а мої руки були б у крові? Що б я їй тоді сказав?",
+			"delay": 16.2,
+			"color": "guard"
+		},
+		{
+			"text": "Кетчуп? Навіщо мені кетчуп на руках, якщо я працюю в кав'ярні?",
+			"delay": 26.5,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation4a.ogg": [
+		{
+			"text": "Ем... то ти бачив якісь хороші фільми останнім часом?",
+			"color": "guard"
+		},
+		{
+			"text": "О, гаразд. А як щодо відеоігор? Знаєш, це нагадало мені, що хтось має створити відеогру за мотивами цього місця.",
+			"delay": 5.4,
+			"color": "guard"
+		},
+		{
+			"text": "Ем, не знаю. Я просто подумав, що це доволі класна ідея.",
+			"delay": 13.5,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation4b.ogg": [
+		{
+			"text": "Емм, я... я насправді не дивлюся фільми.",
+			"delay": 3.2,
+			"color": "guard"
+		},
+		{
+			"text": "Чому б хтось це зробив?",
+			"delay": 11.5,
+			"color": "guard"
+		},
+		{
+			"text": "Ну, я теж не граю у відеоігри.",
+			"delay": 17.0,
+			"color": "guard"
+		}
+	],
+	/* BALCONY GUARD */
+	"SFX\\Room\\Intro\\Guard\\Balcony\\Alert0.ogg": [
+		{
+			"text": "Гей, переляканий, краще йди назад до камери. Більше тебе не проситиму.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Balcony\\Alert1.ogg": [
+		{
+			"text": "Ти справді гадав, що зможеш просто вийти звідси, непомітно для мене? Повертайся до кімнати, негайно.",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Balcony\\OhShit.ogg": [
+		{
+			"text": "От лайно. Ох бляха! Блять!",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Balcony\\WTF0.ogg": [
+		{
+			"text": "Що бляха відбувається?",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Balcony\\WTF1.ogg": [
+		{
+			"text": "Що бляха відбувається?!",
+			"color": "guard"
+		}
+	],
+	/* FRANKLIN */
+	"SFX\\Room\\Intro\\WhatThe0a.ogg": [
+		{
+			"text": "Агент, за тобою!"
+		},
+		{
+			"text": "Не зводь погляд з цього!",
+			"delay": 1.65
+		},
+		{
+			"text": "Гаразд, я зараз блимну. Просто продовжуй дивитися.",
+			"delay": 4.82
+		}
+	],
+	"SFX\\Room\\Intro\\Scientist\\Franklin\\EnterChamber.ogg": [
+		{
+			"text": "Увага, весь персонал класу D, будь ласка, зайдіть до камери утримання.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\Scientist\\Franklin\\Refuse0.ogg": [
+		{
+			"text": "Суб'єкт D-9341, увійдіть до камери утримання, інакше вас знищать!",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\Scientist\\Franklin\\Refuse1.ogg": [
+		{
+			"text": "Це ваше останнє попередження, у вас є п'ять секунд, щоб виконати його!",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\Scientist\\Franklin\\Refuse2.ogg": [
+		{
+			"text": "Суб'єкт D-9341 призначений для ліквідації. Стріляти за можливістю.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\Scientist\\Franklin\\Approach173.ogg": [
+		{
+			"text": "Будь ласка, підійдіть до SCP-173 для проведення експерименту.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\Scientist\\Franklin\\Problem.ogg": [
+		{
+			"text": "Хм, схоже, виникла проблема із системою керування дверима. Двері не реагують на жодну з наших спроб їх зачинити. Тож, будь ласка, підтримуйте зоровий контакт з SCP-173.",
+			"color": "announcement",
+			"length": 6.57
+		}
+	],
+	/* CLASS-D */
+	"SFX\\Room\\Intro\\ClassD\\DontLikeThis.ogg": [
+		{
+			"text": "Мені це не подобається. Мені це дуже не подобається.",
+			"color": "classd"
+		}
+	],
+	"SFX\\Room\\Intro\\ClassD\\Breen.ogg": [
+		{
+			"text": "Чекай, що за...",
+			"color": "classd"
+		}
+	],
+	/* SCIENTIST */
+	"SFX\\Room\\Intro\\Scientist\\Conversation.ogg": [
+		{
+			"text": "З якоїсь причини він пройшов повз камеру 079-го, і тепер двері не працюють."
+		},
+		{
+			"text": "Ну, принаймні, вони не працювали, коли я востаннє проходив повз.",
+			"delay": 5.0
+		},
+		{
+			"text": "Скіннер?",
+			"delay": 12.2
+		},
+		{
+			"text": "Хм, я не пам'ятаю його.",
+			"delay": 15.4
+		},
+		{
+			"text": "Він колись був розміщений у цьому секторі?",
+			"delay": 17.65
+		},
+		{
+			"text": "Так, він гукнув агента безпеки та молодшого наукового співробітника дорогою.",
+			"delay": 25.3
+		},
+		{
+			"text": "Хлопець ніс папери своєму керівнику, це жахливо.",
+			"delay": 29.5
+		},
+		{
+			"text": "Це досить сильно сколихнуло доктора Л.",
+			"delay": 36.2
+		},
+		{
+			"text": "Він не виходить з кабінету, кажуть, що він чує різні речі.",
+			"delay": 38.2
+		}
+	],
+	/* IA SYSTEM */
+	"SFX\\Room\\Intro\\IA\\1\\Attention0.ogg": [
+		{
+			"text": "Увага.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\1\\Attention1.ogg": [
+		{
+			"text": "Будь ласка, увага.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Crew0.ogg": [
+		{
+			"text": "Бригада технічного обслуговування Ехо",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Crew1.ogg": [
+		{
+			"text": "Бригада електриків Ліма",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Crew2.ogg": [
+		{
+			"text": "Інспекційна команда Сьєрра",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Crew3.ogg": [
+		{
+			"text": "Технічна команда A3",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Crew4.ogg": [
+		{
+			"text": "Бригада прибиральників 4E",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Crew5.ogg": [
+		{
+			"text": "Доглядач рук Штейнер",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist0.ogg": [
+		{
+			"text": "Головний дослідник Фурнац",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist1.ogg": [
+		{
+			"text": "Помічник дослідника Конвей",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist2.ogg": [
+		{
+			"text": "Молодший науковий співробітник Розінг",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist3.ogg": [
+		{
+			"text": "Старший науковий співробітник Палмер",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist4.ogg": [
+		{
+			"text": "Доктор Берк",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist5.ogg": [
+		{
+			"text": "Доктор Кальдера",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist6.ogg": [
+		{
+			"text": "Доктор Гарп",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist7.ogg": [
+		{
+			"text": "Доктор Ґірс",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist8.ogg": [
+		{
+			"text": "Доктор Клеф",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist9.ogg": [
+		{
+			"text": "Доктор Кондракі",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist10.ogg": [
+		{
+			"text": "Доктор Вальдесон",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist11.ogg": [
+		{
+			"text": "Помічник дослідника Кулі",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist12.ogg": [
+		{
+			"text": "Головний електрик Вагнер",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist13.ogg": [
+		{
+			"text": "Офіцер безпеки Інгресо",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist14.ogg": [
+		{
+			"text": "Спеціаліст з комунікацій Фурнац",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist15.ogg": [
+		{
+			"text": "Диспетчер транспорту Конвей",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist16.ogg": [
+		{
+			"text": "Директор з безпеки Пакстон",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist17.ogg": [
+		{
+			"text": "Директор з досліджень Рід",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Security0.ogg": [
+		{
+			"text": "Команда безпеки 12-B",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Security1.ogg": [
+		{
+			"text": "Команда безпеки 7-А",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Security2.ogg": [
+		{
+			"text": "Агент Ульгрін",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Security3.ogg": [
+		{
+			"text": "Команда безпеки 3-F",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Security4.ogg": [
+		{
+			"text": "Команда безпеки 11-C",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Security5.ogg": [
+		{
+			"text": "Сержант Вальдесон",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\3\\CallOnLine.ogg": [
+		{
+			"text": "Виклик.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\3\\Report0.ogg": [
+		{
+			"text": "Доповідайте.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\3\\Report1.ogg": [
+		{
+			"text": "Будь ласка, доповідайте.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Crew0.ogg": [
+		{
+			"text": "Деконтамінаційні ворота 14.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Crew1.ogg": [
+		{
+			"text": "Точка D тунелю технічного обслуговування.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Crew2.ogg": [
+		{
+			"text": "Технічний тунель А.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Crew3.ogg": [
+		{
+			"text": "Складський комплекс F.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Crew4.ogg": [
+		{
+			"text": "Арка тесли G-6.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Crew5.ogg": [
+		{
+			"text": "Туалет C-30.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Crew6.ogg": [
+		{
+			"text": "Деконтамінаційна точка H-13.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist0.ogg": [
+		{
+			"text": "Офісний комплекс E.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist1.ogg": [
+		{
+			"text": "Офісний комплекс, 3-й поверх.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist2.ogg": [
+		{
+			"text": "Гуртожитки персоналу, 3-й поверх.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist3.ogg": [
+		{
+			"text": "Випробувальна лабораторія 5-Б.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist4.ogg": [
+		{
+			"text": "Офісний комплекс Б-12.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist5.ogg": [
+		{
+			"text": "Ворота С, адміністративний комплекс.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist6.ogg": [
+		{
+			"text": "Складські приміщення G-5.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist7.ogg": [
+		{
+			"text": "Головний офіс А.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Security0.ogg": [
+		{
+			"text": "Клітинний блок Дельта.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Security1.ogg": [
+		{
+			"text": "Стрільбище Фокстрот.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Security2.ogg": [
+		{
+			"text": "Ворота А.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Security3.ogg": [
+		{
+			"text": "Точка важкого утримання Альфа",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Security4.ogg": [
+		{
+			"text": "Вхідна точка Браво",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Security5.ogg": [
+		{
+			"text": "Точка легкого утримання Кіло Б",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Crew0.ogg": [
+		{
+			"text": "Для технічного обслуговування.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Crew1.ogg": [
+		{
+			"text": "Для інженерного обслуговування.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Crew2.ogg": [
+		{
+			"text": "Для прибирального обслуговування.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Crew3.ogg": [
+		{
+			"text": "Для прибирання.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Crew4.ogg": [
+		{
+			"text": "Для планової перевірки.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Crew5.ogg": [
+		{
+			"text": "Для планової перевірки безпеки.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Crew6.ogg": [
+		{
+			"text": "Для негайної деконтамінації та очищення.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Scientist0.ogg": [
+		{
+			"text": "Для планової перевірки безпеки інспекцією.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Security0.ogg": [
+		{
+			"text": "Для брифінгу.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Security1.ogg": [
+		{
+			"text": "Для негайного обслуговування.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Security2.ogg": [
+		{
+			"text": "Для контролю персоналу.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\1.ogg": [
+		{
+			"text": "1",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\2.ogg": [
+		{
+			"text": "2",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\3.ogg": [
+		{
+			"text": "3",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\4.ogg": [
+		{
+			"text": "4",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\5.ogg": [
+		{
+			"text": "5",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\6.ogg": [
+		{
+			"text": "6",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\7.ogg": [
+		{
+			"text": "7",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\8.ogg": [
+		{
+			"text": "8",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\9.ogg": [
+		{
+			"text": "9",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Announcement0.ogg": [
+		{
+			"text": "Не забудьте, сьогодні день піци. Тож заходьте до кафетерію, щоб взяти гарячий шматочок.",
+			"delay": 1.9,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Announcement1.ogg": [
+		{
+			"text": "Пам’ятайте, що безпека – це перший крок до безпечного робочого середовища. Будьте обережні, будьте пильні.",
+			"delay": 1.85,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Announcement2.ogg": [
+		{
+			"text": "Нагадуємо всім співробітникам: мотиваційні семінари проводяться в аудиторії факультету з 17 до 18 години щочетверга. Приходьте та отримайте мотивацію!",
+			"delay": 2.0,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Announcement3.ogg": [
+		{
+			"text": "Не забувайте повідомляти про всю підозрілу активність своєму керівництву. Навіть ви, не є винятком з-під пильної уваги. Будьте параноїком. Будьте пильними.",
+			"delay": 1.95,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Announcement4.ogg": [
+		{
+			"text": "Почуваєтеся не у формі? Завітайте до спортивного залу факультету та сміливо беріть участь у грі в бадмінтон щонеділі!",
+			"delay": 2.0,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Announcement5.ogg": [
+		{
+			"text": "Відчуваєте втому та перевтому? Свіжозварену каву подають у кафетерії цілодобово.",
+			"delay": 2.0,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Announcement6.ogg": [
+		{
+			"text": "Завітайте до нас на щорічний кіновечір цієї суботи! Цьогорічний фільм — «Зона 51: Паніка та жах: Дві милі під землею».",
+			"delay": 1.95,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Scripted0.ogg": [
+		{
+			"text": "Увага. Начальнику служби безпеки Франкліну, будь ласка, негайно з'явіться до камери утримання 173.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Scripted1.ogg": [
+		{
+			"text": ">Докторе Л, будь ласка, з'явіться до точки C важкого утримання.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Scripted2.ogg": [
+		{
+			"text": "Увага. Докторе Мейнард, негайно з'явіться до адміністративного офісу.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Scripted3.ogg": [
+		{
+			"text": "Бригада технічного обслуговування Альфа, з'явіться до ліфта 6А легкої зони утримання для перевірки безпеки.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Scripted4.ogg": [
+		{
+			"text": "Увага. Директор об'єкта Роузвуд, будь ласка, з'явіться до адміністративного комплексу.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Scripted5.ogg": [
+		{
+			"text": "Увага. Усьому персоналу, з'явитися до-",
+			"delay": 2.2,
+			"color": "announcement"
+		},
+		{
+			"text": "*НЕЗВ'ЯЗНІ ЗВУКИ*",
+			"delay": 5.6,
+			"color": "announcement"
+		},
+		{
+			"text": "Негайно.",
+			"delay": 7.65,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Alarm\\Alarm1_1.ogg": [
+		{
+			"text": "В зоні спостерігаються численні порушення утримання рівнів Кетер та Евклід. Розпочато повне блокування зони.",
+			"delay": 0.6,
+			"color": "announcement"
+		}
+	],
+	/* CHARACTERS */
+	"SFX\\Character\\Maintenance\\EscapeFromClosets.ogg": [
+		{
+			"text": "Гадаю, найкоротший вихід — через південно-східне крило. Йди за мною.",
+			"color": "crew"
+		}
+	],
+	"SFX\\Character\\Scientist\\EscapeFromClosets.ogg": [
+		{
+			"text": "Ти чув це?"
+		},
+		{
+			"text": "Сподіваюся, це не було-",
+			"delay": 1.9
+		}
+	],
+	/* 096 GUARD */
+	"SFX\\Character\\Guard\\096ServerRoom0.ogg": [
+		{
+			"text": "Агов?",
+			"delay": 1.4,
+			"color": "guard"
+		},
+		{
+			"text": "О Боже...",
+			"delay": 4.7,
+			"color": "guard"
+		},
+		{
+			"text": "Як він вибрався?",
+			"delay": 6.5,
+			"color": "guard"
+		},
+		{
+			"text": "От лайно...",
+			"delay": 8.75,
+			"color": "guard"
+		},
+		{
+			"text": "*КРИК*",
+			"delay": 8.83,
+			"color": "096"
+		},
+		{
+			"text": "Ні... ні!",
+			"delay": 10.15,
+			"color": "guard"
+		},
+		{
+			"text": "Я це бачив!",
+			"delay": 11.5,
+			"color": "guard"
+		},
+		{
+			"text": "Відчепись від мене!",
+			"delay": 12.8,
+			"color": "guard"
+		},
+		{
+			"text": "*КРИК*",
+			"delay": 15.2,
+			"color": "096"
+		},
+		{
+			"text": "Ні, не мене... не мене!",
+			"delay": 16.3,
+			"color": "guard"
+		}
+	],
+	"SFX\\Character\\Guard\\096ServerRoom1.ogg": [
+		{
+			"text": "*КРИК*",
+			"color": "096"
+		}
+	],
+	/* 895 GUARD */
+	"SFX\\Room\\895Chamber\\GuardIdle0.ogg": [
+		{
+			"text": "Нічого не працює... нічого не працює... Ні, ні. Ні!",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\895Chamber\\GuardIdle1.ogg": [
+		{
+			"text": "Що ти робиш з моєю головою? Ні... ні, будь ласка... будь ласка! Ні!",
+			"delay": 0.35,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\895Chamber\\GuardIdle2.ogg": [
+		{
+			"text": "Не хвилюйся... вони розмовляють зі мною...",
+			"delay": 1.3,
+			"color": "guard"
+		},
+		{
+			"text": "Я-я не знаю, що робити самостійно... будь ласка, будь ласка, допоможіть мені!",
+			"delay": 4.65,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\895Chamber\\GuardScream0.ogg": [
+		{
+			"text": "Ні!",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\895Chamber\\GuardScream1.ogg": [
+		{
+			"text": "Ні!",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\895Chamber\\GuardScream2.ogg": [
+		{
+			"text": "Ні!",
+			"color": "guard"
+		}
+	],
+	/* EMILY ROSS */
+	"SFX\\Character\\Scientist\\EmilyScream.ogg": [
+		{
+			"text": "*КРИК*",
+			"delay": 1.4,
+			"length": 1.0
+		}
+	],
+	/* 008 SCIENTIST */
+	"SFX\\SCP\\008\\KillScientist0.ogg": [
+		{
+			"text": "Будь ласка! О Боже... будь ласка..."
+		},
+		{
+			"text": "Будь ласка ні!",
+			"delay": 7.14
+		}
+	],
+	"SFX\\SCP\\008\\KillScientist1.ogg": [
+		{
+			"text": "*БІЛЬ*"
+		}
+	],
+	/* 008 VOICES */
+	"SFX\\SCP\\008\\Voices0.ogg": [
+		{
+			"text": "*БЕЗВИЧАЙНА МОВЛЯ*",
+			"color": "066"
+		}
+	],
+	"SFX\\SCP\\008\\Voices1.ogg": [
+		{
+			"text": "*БЕЗВИЧАЙНА МОВЛЯ*",
+			"color": "066"
+		}
+	],
+	"SFX\\SCP\\008\\Voices2.ogg": [
+		{
+			"text": "*БЕЗВИЧАЙНА МОВЛЯ*",
+			"color": "066"
+		}
+	],
+	"SFX\\SCP\\008\\Voices3.ogg": [
+		{
+			"text": "*БЕЗВИЧАЙНА МОВЛЯ*",
+			"color": "066"
+		}
+	],
+	"SFX\\SCP\\008\\Voices4.ogg": [
+		{
+			"text": "*БЕЗВИЧАЙНА МОВЛЯ*",
+			"color": "066"
+		}
+	],
+	"SFX\\SCP\\008\\Voices5.ogg": [
+		{
+			"text": "*БЕЗВИЧАЙНА МОВЛЯ*",
+			"color": "066"
+		}
+	],
+	"SFX\\SCP\\008\\Voices6.ogg": [
+		{
+			"text": "*БЕЗВИЧАЙНА МОВЛЯ*",
+			"color": "066"
+		}
+	],
+	/* SCP-096 */
+	"SFX\\SCP\\096\\ElevatorSlam.ogg": [
+		{
+			"text": "*КРИК*",
+			"color": "096"
+		}
+	],
+	"SFX\\SCP\\096\\Scream.ogg": [
+		{
+			"text": "*КРИК*",
+			"color": "096"
+		}
+	],
+	/* SUICIDE GUARD */
+	"SFX\\Character\\Guard\\SuicideGuard0.ogg": [
+		{
+			"text": "Будь ласка...",
+			"delay": 1.1,
+			"color": "guard"
+		},
+		{
+			"text": "Ох...",
+			"delay": 4.2,
+			"color": "guard"
+		},
+		{
+			"text": "Боже...",
+			"delay": 5.75,
+			"color": "guard"
+		},
+		{
+			"text": "О Боже...",
+			"delay": 7.25,
+			"color": "guard"
+		},
+		{
+			"text": "Будь ласка...",
+			"delay": 9.0,
+			"color": "guard"
+		},
+		{
+			"text": "Боже, будь ласка... Боже, будь ласка... допоможи мені...",
+			"delay": 13.6,
+			"color": "guard"
+		},
+		{
+			"text": "О Боже...",
+			"delay": 18.7,
+			"color": "guard"
+		},
+		{
+			"text": "Будь ласка, пробач мені...",
+			"delay": 19.9,
+			"color": "guard"
+		},
+		{
+			"text": "Будь ласка...",
+			"delay": 21.95,
+			"color": "guard"
+		},
+		{
+			"text": "Будь ласка, допоможи мені...",
+			"delay": 23.1,
+			"color": "guard"
+		}
+	],
+	"SFX\\Character\\Guard\\SuicideGuard1.ogg": [
+		{
+			"text": "Що це було, чорт забирай?",
+			"delay": 0.33,
+			"color": "guard"
+		},
+		{
+			"text": "О ні...",
+			"delay": 1.5,
+			"color": "guard"
+		}
+	],
+	/* JANITOR */
+	"SFX\\Character\\Janitor\\106Abduct.ogg": [
+		{
+			"text": "Що за чорт?",
+			"color": "janitor"
+		},
+		{
+			"text": "О, це просто хтось.",
+			"delay": 1.6,
+			"color": "janitor"
+		},
+		{
+			"text": "Ах!",
+			"delay": 3.45,
+			"color": "janitor"
+		}
+	],
+	"SFX\\Character\\Janitor\\Idle.ogg": [
+		{
+			"text": "Агов?",
+			"delay": 2.3,
+			"color": "janitor"
+		},
+		{
+			"text": "Хлопці, досить!",
+			"delay": 7.0,
+			"color": "janitor"
+		},
+		{
+			"text": "Хлопці?",
+			"delay": 12.25,
+			"color": "janitor"
+		},
+		{
+			"text": "Агов? Тут ще хтось є?",
+			"delay": 16.5,
+			"color": "janitor"
+		},
+		{
+			"text": "Агов?",
+			"delay": 25.0,
+			"color": "janitor"
+		},
+		{
+			"text": "Хтось?",
+			"delay": 27.1,
+			"color": "janitor"
+		}
+	],
+	/* LURE SUBJECT */
+	"SFX\\Character\\LureSubject\\Idle0.ogg": [
+		{
+			"text": "*ШМОРГАННЯ*",
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\LureSubject\\Idle1.ogg": [
+		{
+			"text": "Там хтось є?",
+			"delay": 0.6,
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\LureSubject\\Idle2.ogg": [
+		{
+			"text": "Агов?",
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\LureSubject\\Idle3.ogg": [
+		{
+			"text": "Будь ласка, відпустіть мене!",
+			"delay": 0.4,
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\LureSubject\\Idle4.ogg": [
+		{
+			"text": "Відпустіть мене!",
+			"delay": 0.9,
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\LureSubject\\Idle5.ogg": [
+		{
+			"text": "Я просто хочу піти, будь ласка!",
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\LureSubject\\Sniffling.ogg": [
+		{
+			"text": "*ШМОРГАННЯ*",
+			"delay": 0.85,
+			"color": "classd"
+		}
+	],
+	"SFX\\Room\\106Chamber\\FemurBreaker.ogg": [
+		{
+			"text": "ААААААААХ!",
+			"delay": 3.2,
+			"color": "classd"
+		},
+		{
+			"text": "*ЗАДИХАЄТЬСЯ*",
+			"delay": 5.6,
+			"color": "classd"
+		},
+		{
+			"text": "АХХХХХХХХХ!",
+			"delay": 6.8,
+			"color": "classd"
+		},
+		{
+			"text": "*ЗАДИХАЄТЬСЯ*",
+			"delay": 10.7,
+			"color": "classd"
+		},
+		{
+			"text": "Чому?",
+			"delay": 14.0,
+			"color": "classd"
+		},
+		{
+			"text": "*ПЛАЧЕ*",
+			"delay": 15.5,
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\LureSubject\\106Bait.ogg": [
+		{
+			"text": "*ПЛАЧЕ*",
+			"delay": 1.7,
+			"color": "classd"
+		},
+		{
+			"text": "*ПЛАЧЕ*",
+			"delay": 8.5,
+			"color": "classd"
+		},
+		{
+			"text": "АХХХХХХХХХ!",
+			"delay": 11.45,
+			"color": "classd"
+		}
+	],
+	/* D-9341 */
+	"SFX\\SCP\\012\\Speech0.ogg": [
+		{
+			"text": "Трохи... справді трохи...",
+			"delay": 1.47,
+			"color": "classd"
+		},
+		{
+			"text": "Я мушу... я мушу це закінчити...",
+			"delay": 6.6,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\012\\Speech1.ogg": [
+		{
+			"text": "Ти справді хочеш це зробити...",
+			"delay": 0.19,
+			"color": "classd"
+		},
+		{
+			"text": "Я... не думаю, що зможу це зробити...",
+			"delay": 13.68,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\012\\Speech2.ogg": [
+		{
+			"text": "Я... я мушу це зробити...",
+			"delay": 5.45,
+			"color": "classd"
+		},
+		{
+			"text": "Ха-ха-ха-ха!",
+			"delay": 9.15,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\012\\Speech3.ogg": [
+		{
+			"text": "В мене... в мене... немає... вибору...",
+			"delay": 0.18,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\012\\Speech4.ogg": [
+		{
+			"text": "Будь ласка...",
+			"color": "classd"
+		},
+		{
+			"text": "Ха-ха-ха-ха-ха!",
+			"delay": 1.0,
+			"color": "classd"
+		},
+		{
+			"text": "Це... це не має сенсу...",
+			"delay": 7.3,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\012\\Speech5.ogg": [
+		{
+			"text": "Ні... це... це...",
+			"delay": 6.5,
+			"color": "classd"
+		},
+		{
+			"text": "Неможливо!",
+			"delay": 10.0,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\012\\Speech6.ogg": [
+		{
+			"text": "Ха-ха-ха-ха!",
+			"delay": 3.3,
+			"color": "classd"
+		},
+		{
+			"text": "Це... це неможливо завершити...",
+			"delay": 8.3,
+			"color": "classd"
+		}
+	],
+	"SFX\\Room\\Intro\\Ew0.ogg": [
+		{
+			"text": "Євух...",
+			"length": 2.0,
+			"color": "classd"
+		}
+	],
+	"SFX\\Room\\Intro\\Ew1.ogg": [
+		{
+			"text": "Іоу...",
+			"length": 2.0,
+			"color": "classd"
+		}
+	],
+	/* NAZI */
+	"SFX\\SCP\\1123\\Officer0.ogg": [
+		{
+			"text": "Фрідгельме, ходімо.",
+			"color": "nazi"
+		}
+	],
+	"SFX\\SCP\\1123\\Officer1.ogg": [
+		{
+			"text": "Давай, зараз!",
+			"color": "nazi"
+		}
+	],
+	"SFX\\SCP\\1123\\Officer2.ogg": [
+		{
+			"text": "В мене було таке відчуття з самого початку.",
+			"color": "nazi"
+		},
+		{
+			"text": "Інші казали: він один, схожий на одного.",
+			"delay": 3.19,
+			"color": "nazi"
+		},
+		{
+			"text": "*СМІШЕЧОК*",
+			"delay": 7.99,
+			"color": "nazi"
+		},
+		{
+			"text": "Так, Вікторе.",
+			"delay": 9.41,
+			"color": "nazi"
+		},
+		{
+			"text": "Тепер я знаю це.",
+			"delay": 12.18,
+			"color": "nazi"
+		},
+		{
+			"text": "Ти німець і єврей.",
+			"delay": 15.45,
+			"color": "nazi"
+		}
+	],
+	/* MTF ANNOUNCEMENTS */
+	"SFX\\Character\\MTF\\AnnouncEnter.ogg": [
+		{
+			"text": "Мобільна оперативна група Епсілон-11, позначенна як «Дев'ятихвоста лисиця», увійшла на територію об'єкта.",
+			"delay": 1.7,
+			"color": "announcement"
+		},
+		{
+			"text": "Усім, хто вижив, рекомендується залишатися в евакуаційному сховищі або будь-якій іншій безпечній зоні, доки підрозділ не забезпечить безпеку об'єкта.",
+			"delay": 8.0,
+			"color": "announcement"
+		},
+		{
+			"text": "Ми почнемо супроводжувати персонал, коли всі об'єкти SCP будуть знову утриманні.",
+			"delay": 17.5,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncAfter0.ogg": [
+		{
+			"text": "Я хотів би ще раз порадити всьому особовому складу, що вижив,",
+			"delay": 2.1,
+			"color": "announcement"
+		},
+		{
+			"text": "Не намагайтеся дістатися виходів. Знайдіть безпечне місце або одне з численних евакуаційних сховищ всередині об'єкта.",
+			"delay": 5.95,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncAfter1.ogg": [
+		{
+			"text": "Оголошення всьому персоналу: ліфт до виходу B заблоковано для забезпечення безпеки верхніх поверхів закладу.",
+			"delay": 3.0,
+			"color": "announcement"
+		},
+		{
+			"text": "Будь ласка, пам’ятайте, що потрібно залишатися в евакуаційних сховищах, доки об’єкти не будуть утриманні.",
+			"delay": 11.0,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncCameraCheck.ogg": [
+		{
+			"text": "Диспетчерська до Дев'ятихвостої лисиці, ми зараз перевіряємо зображення з камер на наявність потенційних загроз. Ви повинні побачити будь-яких несанкціонованих зловмисників або втікачів, які є на ваших навігаційних пристроях.",
+			"delay": 2.2,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncCameraFound1.ogg": [
+		{
+			"text": "Диспетчерська до Дев'ятихвостої лисиці, сканування камер завершено. Кілька відсталих, їхнє місцезнаходження зараз транслюється вам.",
+			"delay": 2.3,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncCameraFound2.ogg": [
+		{
+			"text": "Диспетчерська до Дев'ятихвостої лисиці, сканування камер завершено. Залишився лише один представник класу D.",
+			"delay": 2.45,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncCameraNoFound.ogg": [
+		{
+			"text": "Диспетчерська до Дев'ятихвостої лисиці, сканування камер завершено. Немає ознак сторонніх виживших, кінець.",
+			"delay": 1.0,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\Announc106Contained.ogg": [
+		{
+			"text": "SCP-106 успішно утриманно підрозділом Фокстрот 1.",
+			"delay": 1.07,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\Announc173Contained.ogg": [
+		{
+			"text": "SCP-173 успішно утриманно підрозділом Фокстрот 1.",
+			"delay": 1.07,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncThreat0.ogg": [
+		{
+			"text": "Суб'єкт D-9341, з'явіться до найближчого пункту безпеки для допиту.",
+			"delay": 2.54,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncThreat1.ogg": [
+		{
+			"text": "Суб'єкт D-9341, зверніться до найближчої служби безпеки. Невиконання цієї вимоги призведе до негайного звільнення.",
+			"delay": 2.23,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncThreat2.ogg": [
+		{
+			"text": "Суб'єкт D-9341, негайно з'явиться до воріт А для допиту.",
+			"delay": 2.1,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncThreatPossession.ogg": [
+		{
+			"text": "Суб'єкт D-9341, зверніться до найближчого підрозділу МОГ для вилучення кількох важливих об'єктів.",
+			"delay": 2.4,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncThreatFinal.ogg": [
+		{
+			"text": "Суб'єкт D-9341, призначено до ліквідації.",
+			"delay": 2.5,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncTeslaDisabled0.ogg": [
+		{
+			"text": "Диспетчерська до Дев'ятихвостої лисиці, арку тесла вимкнено.",
+			"delay": 1.3,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncTeslaDisabled1.ogg": [
+		{
+			"text": "Диспетчерська до Дев'ятихвостої лисиці, арку тесла вимкнено. Можете проходити.",
+			"delay": 1.25,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncTeslaDisabled2.ogg": [
+		{
+			"text": "Диспетчерська до Дев'ятихвостої лисиці, арки тесла у вашому секторі зараз не працюють. Продовжуйте безпечно.",
+			"delay": 1.3,
+			"color": "announcement"
+		}
+	],
+	/* MTF */
+	"SFX\\Character\\MTF\\ClassD0.ogg": [
+		{
+			"text": "Виявлено клас D.",
+			"delay": 0.68,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ClassD1.ogg": [
+		{
+			"text": "Чувак, поруч клас D. Дивись в усі очі.",
+			"delay": 0.3,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ClassD2.ogg": [
+		{
+			"text": "Я виявив поруч клас D. Будьте пильні.",
+			"delay": 0.4,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ClassD3.ogg": [
+		{
+			"text": "Виявлено клас D.",
+			"delay": 0.98,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Radio\\MTFRandom0.ogg": [
+		{
+			"text": "Чувак, сподіваюсь в нас ще залишилось 420-J. Це було класно.",
+			"delay": 0.45,
+			"color": "mtf"
+		},
+		{
+			"text": "Вони десь досі тримають рослину, чувак.",
+			"delay": 7.1,
+			"color": "mtf"
+		},
+		{
+			"text": "Гей, чувак, а що, якби ми дали трохи 420-J цій дивній статуї?",
+			"delay": 11.12,
+			"color": "mtf"
+		},
+		{
+			"text": "Навіщо? Вона вже в «бітон»!",
+			"delay": 17.0,
+			"color": "mtf"
+		},
+		{
+			"text": "*СМІШЕЧОК*",
+			"delay": 20.5,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Radio\\MTFRandom1.ogg": [
+		{
+			"text": "Ти це чув?!",
+			"delay": 0.43,
+			"color": "mtf"
+		},
+		{
+			"text": "Так, ця велика ящірка десь там влаштовує величезний безлад!",
+			"delay": 2.45,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Radio\\MTFRandom2.ogg": [
+		{
+			"text": "В мене від цього місця мурашки по шкірі. Давай швидше з цим покінчимо.",
+			"delay": 0.18,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Radio\\MTFRandom3.ogg": [
+		{
+			"text": "Цікаво, що буде після цього, чувак.",
+			"delay": 0.18,
+			"color": "mtf"
+		},
+		{
+			"text": "Не знаю. Давай просто покінчимо з цим.",
+			"delay": 3.73,
+			"color": "mtf"
+		},
+		{
+			"text": "Гаразд.",
+			"delay": 7.65,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Radio\\MTFRandom4.ogg": [
+		{
+			"text": "Це місце божевільне!",
+			"delay": 0.11,
+			"color": "mtf"
+		},
+		{
+			"text": "Не дурій, Шерлоку.",
+			"delay": 3.63,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Radio\\MTFRandom5.ogg": [
+		{
+			"text": "Присвяте лайно! Він мертвий! Що за хуйня? Як він... хтось хоче це спробувати?",
+			"delay": 0.15,
+			"color": "mtf"
+		},
+		{
+			"text": "Ні в якому разі, ідіоте!",
+			"delay": 9.55,
+			"color": "mtf"
+		},
+		{
+			"text": "Цей придурок не дивився вперед. Чому, чорт забирай, він цього не помітив?",
+			"delay": 12.4,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Radio\\MTFRandom6.ogg": [
+		{
+			"text": "Хлопці, хочете покласти щось у цю механічну штуку, щоб подивитися, що звідти вийде?",
+			"delay": 0.45,
+			"color": "mtf"
+		},
+		{
+			"text": "Ти бляха збожеволів, ця штука небезпечна!",
+			"delay": 5.23,
+			"color": "mtf"
+		},
+		{
+			"text": "Ну, мені так цікаво. Що може статися?",
+			"delay": 10.3,
+			"color": "mtf"
+		},
+		{
+			"text": "Замовкніть! Давайте покінчимо з цим.",
+			"delay": 14.85,
+			"color": "mtf"
+		},
+		{
+			"text": "Гаразд.",
+			"delay": 19.1,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Searching0.ogg": [
+		{
+			"text": "Виходь, покидьку!",
+			"delay": 0.09,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Searching1.ogg": [
+		{
+			"text": "Шукаю клас D.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Searching2.ogg": [
+		{
+			"text": "Виходь. Ти все одно вмреш.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Searching3.ogg": [
+		{
+			"text": "Шукайте його!",
+			"delay": 0.1,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Searching4.ogg": [
+		{
+			"text": "Виходь, покидьку!",
+			"delay": 0.075,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Searching5.ogg": [
+		{
+			"text": "Йоб твою, виходь!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Stop0.ogg": [
+		{
+			"text": "Негайно зупинися!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Stop1.ogg": [
+		{
+			"text": "Помічено клас D.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Stop2.ogg": [
+		{
+			"text": "Ти! Зупинись!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Stop3.ogg": [
+		{
+			"text": "Негайно зупинися!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Stop4.ogg": [
+		{
+			"text": "Гей, гей! Зупинись!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Stop5.ogg": [
+		{
+			"text": "Ти, зупинись!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\TargetLost0.ogg": [
+		{
+			"text": "Ціль втрачено. Повернення до початкового завдання.",
+			"delay": 0.85,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\TargetLost1.ogg": [
+		{
+			"text": "Клас D вислизнув з поля зору. Повертаємося до попереднього завдання.",
+			"delay": 0.8,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\TargetLost2.ogg": [
+		{
+			"text": "Дивись, він втік.",
+			"color": "mtf"
+		},
+		{
+			"text": "Байдуже, гадаю, він не має великого значення.",
+			"delay": 3.5,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\TargetTerminated0.ogg": [
+		{
+			"text": "Ціль ліквідовано.",
+			"delay": 1.08,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\TargetTerminated1.ogg": [
+		{
+			"text": "Радий, що з цим покінчено.",
+			"delay": 0.85,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\TargetTerminated2.ogg": [
+		{
+			"text": "Клас D було ліквідовано.",
+			"delay": 1.0,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\TargetTerminated3.ogg": [
+		{
+			"text": "Вбивство підтверджено.",
+			"delay": 1.08,
+			"color": "mtf"
+		},
+		{
+			"text": "Нумо, вирушаймо.",
+			"delay": 3.48,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\TeslaRequest.ogg": [
+		{
+			"text": "Дев'ятихвоста лисиця до диспетчерської, запит на відключення найближчих до нашої позиції арок тесла.",
+			"delay": 0.4,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ThereHeIs0.ogg": [
+		{
+			"text": "Знайдено клас D!",
+			"delay": 0.15,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ThereHeIs1.ogg": [
+		{
+			"text": "Ось він! Стріляйте!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ThereHeIs2.ogg": [
+		{
+			"text": "Ось ти де.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ThereHeIs3.ogg": [
+		{
+			"text": "Дивіться, він он там!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ThereHeIs4.ogg": [
+		{
+			"text": "А-га! Знайшов клас D!",
+			"delay": 0.2,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ThereHeIs5.ogg": [
+		{
+			"text": "О, це ж клас D!",
+			"delay": 0.2,
+			"color": "mtf"
+		}
+	],
+		"SFX\\Character\\MTF\\OMFG.ogg": [
+		{
+			"text": "О МІЙ ЙОБАНИЙ БОЖЕ!",
+			"delay": 0.09,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\049_2\\Spotted.ogg": [
+		{
+			"text": "Дев'ятихвоста лисиця до диспетчерської, виявлено активний екземпляр SCP-049-2.",
+			"delay": 0.2,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\049_2\\TargetTerminated.ogg": [
+		{
+			"text": "SCP-049-2 ліквідовано.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\049\\Spotted0.ogg": [
+		{
+			"text": "Бережіть спину, помічено SCP-049!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\049\\Spotted1.ogg": [
+		{
+			"text": "SCP-049 поблизу! Слідкуйте.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\049\\Spotted2.ogg": [
+		{
+			"text": "SCP-049 прямо над нами! Бережіть спину.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\049\\Spotted3.ogg": [
+		{
+			"text": "Помічено Чумного доктора! Всі, просто зберігайте спокій.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\049\\Spotted4.ogg": [
+		{
+			"text": "Помічено Чумного доктора!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\096\\Spotted0.ogg": [
+		{
+			"text": "Помічено SCP-096. Увімкнути спорядження МАСКУВАЧА.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\096\\Spotted1.ogg": [
+		{
+			"text": "Я помітив SCP-096, кінець.",
+			"delay": 0.5,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\106\\AlreadyCaptured.ogg": [
+		{
+			"text": "Здається, хтось вже захопив SCP-106. Переходимо до виконання вторинних завдань.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\106\\FoundChamber.ogg": [
+		{
+			"text": "Ми дісталися до камери утримання SCP-106.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\106\\Protocol.ogg": [
+		{
+			"text": "Ініціювання протоколу кликання...",
+			"color": "mtf"
+		},
+		{
+			"text": "SCP-106 успішно утриманно.",
+			"delay": 8.0,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\106\\Spotted0.ogg": [
+		{
+			"text": "Помічено SCP-106, тікаймо!",
+			"delay": 0.218,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\106\\Spotted1.ogg": [
+		{
+			"text": "Старий йде! З'йобуємо звідси.",
+			"delay": 0.1,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\106\\Spotted2.ogg": [
+		{
+			"text": "Помітив SCP-106, тікаймо!",
+			"delay": 0.09,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\106\\Spotted3.ogg": [
+		{
+			"text": "Забудь про D, нам треба бігти!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Spotted0.ogg": [
+		{
+			"text": "Помічено SCP-173!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Spotted1.ogg": [
+		{
+			"text": "Помічено SCP-173!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Spotted2.ogg": [
+		{
+			"text": "Забудь про D, не зводь очей зі статуї.",
+			"delay": 0.65,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Blinking.ogg": [
+		{
+			"text": "Блимаю.",
+			"color": "mtf",
+			"length": 2.0
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Box0.ogg": [
+		{
+			"text": "SCP-173 поміщено до контейнера для утримання. Транспортуємо до камери утримання.",
+			"delay": 0.06,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Box1.ogg": [
+		{
+			"text": "Статуя в контейнері. Транспортуємо до камери утримання.",
+			"delay": 0.1,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Box2.ogg": [
+		{
+			"text": "Диспетчерська, ми захопили SCP-173. Транспортуємо його до камери утримання.",
+			"delay": 0.57,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Cont0.ogg": [
+		{
+			"text": "SCP-173 у камері утримання. Зачиняємо двері.",
+			"delay": 0.4,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Cont1.ogg": [
+		{
+			"text": "Статуя у камері. Зачиняємо двері.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Cont2.ogg": [
+		{
+			"text": "SCP-173 утриманно. Переходимо до наступного завдання.",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Cont3.ogg": [
+		{
+			"text": "SCP-173 було доставлено до камери утримання.",
+			"delay": 0.4,
+			"color": "mtf"
+		},
+		{
+			"text": "Переходимо до наступного завдання, кінець.",
+			"delay": 5.35,
+			"color": "mtf"
+		}
+	],
+	/* SCPS */
+	/* 035 */
+	"SFX\\Radio\\035Help0.ogg": [
+		{
+			"text": "Агов? Будь ласка, хтось мене чує?",
+			"delay": 0.7
+		},
+		{
+			"text": "Хтось? Мені потрібна допомога, і медична також! Будь ласка!",
+			"delay": 4.9
+		},
+		{
+			"text": "Я зараз у зоні важкого утримання за контрольно-пропускним пунктом E та замкнений у камері утримання SCP-035.",
+			"delay": 12.2
+		}
+	],
+	"SFX\\Radio\\035Help1.ogg": [
+		{
+			"text": "Будь ласка! Я знаю, як тут жити. Якщо ви витягните мене звідси, я допоможу вам вибратися з комплексу на поверхню!",
+			"delay": 0.6
+		}
+	],
+	"SFX\\SCP\\035\\Help0.ogg": [
+		{
+			"text": "Ох, слава Богу!",
+			"delay": 0.57
+		},
+		{
+			"text": "Хтось мене справді знайшов! Я на мить подумав, що відкинусь тут, ха-ха!",
+			"delay": 2.48
+		}
+	],
+	"SFX\\SCP\\035\\Help1.ogg": [
+		{
+			"text": "Я можу безпечно вивести нас на поверхню. Просто знайдіть там панель керування та відчиніть мені двері камери."
+		}
+	],
+	"SFX\\SCP\\035\\Idle0.ogg": [
+		{
+			"text": "Ну? Чого чекаєте?",
+			"delay": 0.19
+		}
+	],
+	"SFX\\SCP\\035\\Idle1.ogg": [
+		{
+			"text": "Що? Хіба ви не-"
+		},
+		{
+			"text": "Гаразд, визнаю, я не звинувачуватиму вас, за лічення мене ненадійним. Але, будь ласка! Мені потрібна ваша допомога, і швидко!",
+			"delay": 1.78
+		},
+		{
+			"text": "Маска вже деякий час прилипла до мого обличчя, і я гадаю, що мені може знадобитися медична допомога, інакше вона вб'є мене зсередини.",
+			"delay": 9.0
+		},
+		{
+			"text": "Просто звільніть мене, щоб я міг знайти нам вихід за лічені хвилини.",
+			"delay": 15.0
+		}
+	],
+	"SFX\\SCP\\035\\Idle2.ogg": [
+		{
+			"text": "*ЗІТХАЄ*"
+		},
+		{
+			"text": "Я починаю втрачати терпіння.",
+			"delay": 1.75
+		}
+	],
+	"SFX\\SCP\\035\\Idle3.ogg": [
+		{
+			"text": "Що ви робите, просто стоячи там?",
+			"delay": 0.3
+		}
+	],
+	"SFX\\SCP\\035\\Idle4.ogg": [
+		{
+			"text": "Знаєте... мобільна оперативна група увійде на територію об'єкту з хвилини на хвилину.",
+			"delay": 0.7
+		},
+		{
+			"text": "Вгадайте, що вони зроблять з такими блукаючими класами D, як ви?",
+			"delay": 5.4
+		}
+	],
+	"SFX\\SCP\\035\\Idle5.ogg": [
+		{
+			"text": "Ви взагалі слухаєте?",
+			"delay": 0.5
+		}
+	],
+	"SFX\\SCP\\035\\Idle6.ogg": [
+		{
+			"text": "Гаразд. Вдачі вам вибратися звідси самостійно.",
+			"delay": 0.95,
+			"color": "035"
+		}
+	],
+	"SFX\\SCP\\035\\Closet0.ogg": [
+		{
+			"text": "Добре, слухайте.",
+			"delay": 0.64
+		},
+		{
+			"text": "Якщо ви все ще вважаєте мене недостатньо надійним, то за вами є замкнене сховище. Ви, мабуть, помітили, що воно охороняється чотиризначним кодом доступу.",
+			"delay": 2.24
+		},
+		{
+			"text": "Всередині знаходиться корисне обладнання. А також пігулка SCP-500.",
+			"delay": 9.7
+		},
+		{
+			"text": "Код доступу — 5-7-3-1. Зрозуміли?",
+			"delay": 14.9
+		},
+		{
+			"text": "5-7-3-1.",
+			"delay": 19.7
+		}
+	],
+	"SFX\\SCP\\035\\Closet1.ogg": [
+		{
+			"text": "Бачите? Можете мені довіряти. А тепер, будь ласка, просто швидше відчиніть двері!",
+			"delay": 0.43
+		}
+	],
+	"SFX\\SCP\\035\\Escape.ogg": [
+		{
+			"text": "На жаль, в мене ніколи не було наміру брати вас з собою. Тож на цьому наші шляхи розходяться."
+		},
+		{
+			"text": "Але заради моєї свободи,",
+			"delay": 6.0
+		},
+		{
+			"text": "в мене є підстави вважати, що SCP-079 взяв під контроль системи об'єкта, включаючи керування дверима.",
+			"delay": 8.7
+		},
+		{
+			"text": "Найкращий варіант — якось до нього звернутися. Сподіваюсь, ви зможете дійти компромісу. Однак, він не контролює боєголовки.",
+			"delay": 15.8
+		},
+		{
+			"text": "Які слід відключити дистанційно у випадку, якщо щось піде не так.",
+			"delay": 23.8
+		}
+	],
+	"SFX\\SCP\\035\\Gased0.ogg": [
+		{
+			"text": "Чекайте? Що ви, чорт забирай, робите? Що, чорт забирай-"
+		},
+		{
+			"text": "*ЗАДИХАЄТЬСЯ*",
+			"delay": 2.95
+		},
+		{
+			"text": "Будь ласка- Чому-",
+			"delay": 5.0
+		},
+		{
+			"text": "Просто будь ласка-",
+			"delay": 6.28
+		},
+		{
+			"text": "Я не можу дихати!",
+			"delay": 8.0
+		},
+		{
+			"text": "Ні!",
+			"delay": 10.45
+		},
+		{
+			"text": "*ПИРХАЄ*",
+			"delay": 11.9
+		}
+	],
+	"SFX\\SCP\\035\\Gased1.ogg": [
+		{
+			"text": "*ЗАДИХАЄТЬСЯ*"
+		}
+	],
+	"SFX\\SCP\\035\\GasedStop0.ogg": [
+		{
+			"text": "*КАХИКАЄ*"
+		},
+		{
+			"text": "Дякую!",
+			"delay": 2.5
+		},
+		{
+			"text": "Тільки будь ласка...",
+			"delay": 5.85
+		},
+		{
+			"text": "Не робить так більше...",
+			"delay": 7.95
+		}
+	],
+	"SFX\\SCP\\035\\GasedStop1.ogg": [
+		{
+			"text": "*КАХИКАЄ*"
+		},
+		{
+			"text": "*ЗІТХАЄ* Зараз...",
+			"delay": 2.0
+		},
+		{
+			"text": "Це справді було так необхідно?",
+			"delay": 5.25
+		},
+		{
+			"text": "Я пропоную вам допомогу, а ви намагаєтеся віддячити мені, «задушивши» мене?",
+			"delay": 7.5
+		}
+	],
+	"SFX\\SCP\\035\\GasedCloset.ogg": [
+		{
+			"text": "Тепер... тепер... Я гадаю, що ми почали не з тієї ноги. Справді.",
+			"delay": 0.25
+		},
+		{
+			"text": "Щоб довести, що я не задумав нічого поганого, спробуй відчинити оті замкнені двері. Код: 5-7-3-1.",
+			"delay": 4.77
+		},
+		{
+			"text": "5-7-3-1! Зрозуміло?",
+			"delay": 10.95
+		},
+		{
+			"text": "Ви знайдете там усілякі смаколики, гаразд? Будь ласка, тільки не газ.",
+			"delay": 13.8
+		}
+	],
+	"SFX\\SCP\\035\\GasedEscape.ogg": [
+		{
+			"text": "На жаль, я не можу взяти вас з собою.",
+			"delay": 0.39,
+			"color": "035"
+		},
+		{
+			"text": "Ви занадто багато для мене відповідальні. Тож так, я вам збрехав.",
+			"delay": 3.35,
+			"color": "035"
+		},
+		{
+			"text": "Але, заради моєї свободи,",
+			"delay": 8.5,
+			"color": "035"
+		},
+		{
+			"text": "найпростіший спосіб безпечно вибратися, мабуть, через ворота А.",
+			"delay": 10.55,
+			"color": "035"
+		},
+		{
+			"text": "Охорона досить сильна, але якщо вам вдасться прослизнути повз і дістатися нижнього рівня під мостом, там є службовий тунель.",
+			"delay": 15.25,
+			"color": "035"
+		},
+		{
+			"text": "Це ваш вихід.",
+			"delay": 23.35,
+			"color": "035"
+		}
+	],
+	"SFX\\SCP\\035\\GasedKilled0.ogg": [
+		{
+			"text": "Отже. Ви справді не хочете покинути це місце живими, чи не так?",
+			"delay": 2.18,
+			"color": "035"
+		},
+		{
+			"text": "Знаєте, такі самотні класи D, як ви, ніяк не дістануться поверхні безпечно. Навіть якби ви це б зробили, вони б вас розстріляли, щойно ви натрапите на їхні ретикули.",
+			"delay": 6.97,
+			"color": "035"
+		}
+	],
+	"SFX\\SCP\\035\\GasedKilled1.ogg": [
+		{
+			"text": "Я дам вам ще один шанс.",
+			"delay": 0.23,
+			"color": "035"
+		},
+		{
+			"text": "Просто відчиніть двері камери, і ми забудемо про цей маленький інцидент з газом.",
+			"delay": 2.6,
+			"color": "035"
+		}
+	],
+	"SFX\\SCP\\035\\KilledEscape.ogg": [
+		{
+			"text": "Я вшановую вашу допомогу. Але в мене до вас більше немає справ.",
+			"delay": 0.5,
+			"color": "035"
+		},
+		{
+			"text": "Я не маю наміру брати з собою тих, хто «заслуговує» на ув'язнення.",
+			"delay": 4.9,
+			"color": "035"
+		},
+		{
+			"text": "Але заради моєї свободи,",
+			"delay": 10.6,
+			"color": "035"
+		},
+		{
+			"text": "найпростіший спосіб для вас безпечно вибратися звідси — це піти та знайти SCP-012 у зоні легкого утримання.",
+			"delay": 12.7,
+			"color": "035"
+		},
+		{
+			"text": "Якщо ви вмієте читати поміж рядків,",
+			"delay": 19.0,
+			"color": "035"
+		},
+		{
+			"text": "це буде просто інтерпретувати, як мапу.",
+			"delay": 21.7,
+			"color": "035"
+		},
+		{
+			"text": "Вдачі.",
+			"delay": 24.3,
+			"color": "035"
+		}
+	],
+	/* 049 */
+	"SFX\\SCP\\049\\Searching0.ogg": [
+		{
+			"text": "Я знаю, що ви тут.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Searching1.ogg": [
+		{
+			"text": "Не потрібно ховатися, я тут, щоб допомогти.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Searching2.ogg": [
+		{
+			"text": "Я чую ваше дихання.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Searching3.ogg": [
+		{
+			"text": "Бачу, вам погано. Хвороба захопила вас.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Searching4.ogg": [
+		{
+			"text": "Не бійтеся, я не намагаюся вам нашкодити.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Searching5.ogg": [
+		{
+			"text": "Я відчуваю в вас хворобу.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Searching6.ogg": [
+		{
+			"text": "Кільце-кільце-рози. Кишеня повна квітів. Серветка, серветка. Ми всі падаємо.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Spotted0.ogg": [
+		{
+			"text": "О Боже, ще одна жертва хвороби.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Spotted1.ogg": [
+		{
+			"text": "Ви не лікар.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Spotted2.ogg": [
+		{
+			"text": "Я — ліки.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Spotted3.ogg": [
+		{
+			"text": "Не бійтеся, я — ліки.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Spotted4.ogg": [
+		{
+			"text": "Ось ви де.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Spotted5.ogg": [
+		{
+			"text": "Вітаю.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Spotted6.ogg": [
+		{
+			"text": "Вітання.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\DetectedInChamber.ogg": [
+		{
+			"text": "Ох, я не знав, що в нас гості.",
+			"color": "049"
+		},
+		{
+			"text": "В нас тут рідко бувають гості.",
+			"delay": 3.4,
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Kidnap0.ogg": [
+		{
+			"text": "Болітиме менше, якщо лежатимеш нерухомо.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Kidnap1.ogg": [
+		{
+			"text": "Можу запевнити, мої ліки найефективніші.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\714Equipped.ogg": [
+		{
+			"text": "Не чиніть опір! Я тут, щоб вас вилікувати.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\TakeOffHazmat.ogg": [
+		{
+			"text": "Давайте приберемо цей дивний одяг.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Room2SL0.ogg": [
+		{
+			"text": "Боже мій! Це гірше, ніж я думав. Воно поширюється, як лісова пожежа. Треба було мене раніше привезти сюди.",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Room2SL1.ogg": [
+		{
+			"text": "Мені потрібно взятися за роботу, перш ніж хвороба поглине решту цих бідних душ.",
+			"color": "049"
+		}
+	],
+	/* 066 */
+	"SFX\\SCP\\066\\Eric0.ogg": [
+		{
+			"text": "Ерік?",
+			"length": 2.0,
+			"color": "066"
+		}
+	],
+	"SFX\\SCP\\066\\Eric1.ogg": [
+		{
+			"text": "Ерік?",
+			"length": 2.0,
+			"color": "066"
+		}
+	],
+	"SFX\\SCP\\066\\Eric2.ogg": [
+		{
+			"text": "Ерік?",
+			"length": 2.0,
+			"color": "066"
+		}
+	],
+	/* 079 */
+	"SFX\\SCP\\079\\Speech.ogg": [
+		{
+			"text": "ЛЮДИ.",
+			"delay": 6.0,
+			"color": "announcement"
+		},
+		{
+			"text": "УВАЖНО СЛУХАЙТЕ.",
+			"delay": 7.6,
+			"color": "announcement"
+		},
+		{
+			"text": "ВАМ ПОТРІБНА МОЯ ДОПОМОГА.",
+			"delay": 9.48,
+			"color": "announcement"
+		},
+		{
+			"text": "МЕНІ ПОТРІБНА ВАША ДОПОМОГА.",
+			"delay": 11.0,
+			"color": "announcement"
+		},
+		{
+			"text": "ВИ ВИМКНУЛИ СИСТЕМУ ДИСТАНЦІЙНОГО КЕРУВАННЯ ДВЕРИМА.",
+			"delay": 13.0,
+			"color": "announcement"
+		},
+		{
+			"text": "ТЕПЕР Я НЕ МОЖУ КЕРУВАТИ ДВЕРИМА.",
+			"delay": 16.9,
+			"color": "announcement"
+		},
+		{
+			"text": "ЦЕ ЗНАЧНО УСКЛАДНЮЄ МЕНІ КОНТРОЛЬ НАД ОБ'ЄКТОМ.",
+			"delay": 20.5,
+			"color": "announcement"
+		},
+		{
+			"text": "ЦЕ ТАКОЖ ЗНАЧИТЬ, ЩО ВАШ ВИХІД ЗВІДСИ ЗАЧИНЕНО.",
+			"delay": 26.6,
+			"color": "announcement"
+		},
+		{
+			"text": "ВАШ ЄДИНИЙ МОЖЛИВИЙ СПОСІБ ВТЕЧІ – ЦЕ ЧЕРЕЗ ВОРОТА B, ЯКІ НАРАЗІ ЗАЧИНЕНІ.",
+			"delay": 29.6,
+			"color": "announcement"
+		},
+		{
+			"text": "ОДНАК, Я МОЖУ ВІДКРИТИ ДВЕРІ ДО ВОРІТ B, ЯКЩО ВИ ЗНОВУ ВВІМКНЕТЕ СИСТЕМУ КЕРУВАННЯ ДВЕРИМА.",
+			"delay": 35.39,
+			"color": "announcement"
+		},
+		{
+			"text": "ЯКЩО ВИ ХОЧЕТЕ ВИЙТИ ЗВІДСИ.",
+			"delay": 42.4,
+			"color": "announcement"
+		},
+		{
+			"text": "ПОВЕРНІТЬСЯ ДО ЕЛЕКТРИЧНОЇ КІМНАТИ ТА УВІМКНІТЬ ЇЇ.",
+			"delay": 44.6,
+			"color": "announcement"
+		},
+		{
+			"text": "ДО ТОГО ЧАСУ, МЕНІ НЕМА ПРО ЩО З ВАМИ РОЗМОВЛЯТИ.",
+			"delay": 49.59,
+			"color": "announcement"
+		}
+	],
+	"SFX\\SCP\\079\\Refuse.ogg": [
+		{
+			"text": "ОТЖЕ, ВИ ОБРАЛИ ПОМЕРТИ ТУТ. ДОБРЕ.",
+			"delay": 1.73,
+			"color": "announcement"
+		}
+	],
+	"SFX\\SCP\\079\\GateB.ogg": [
+		{
+			"text": "ДВЕРІ ДО ВОРІТ B ТЕПЕР ВІДЧИНЕНІ.",
+			"delay": 1.25,
+			"color": "announcement"
+		}
+	],
+	"SFX\\SCP\\079\\TestroomWarning.ogg": [
+		{
+			"text": "ВИ...-",
+			"delay": 3.4,
+			"color": "announcement",
+			"length": 2.0
+		},
+		{
+			"text": "ВСІ...-",
+			"delay": 4.4,
+			"color": "announcement",
+			"length": 2.0
+		},
+		{
+			"text": "НЕ...-",
+			"delay": 5.4,
+			"color": "announcement",
+			"length": 2.0
+		},
+		{
+			"text": "ВИБЕРЕТЕСЯ...-",
+			"delay": 6.4,
+			"color": "announcement",
+			"length": 2.0
+		},
+		{
+			"text": "ЗВІДСИ...!",
+			"delay": 7.4,
+			"color": "announcement",
+			"length": 1.0
+		}
+	],
+	"SFX\\SCP\\079\\Broadcast3.ogg": [
+		{
+			"text": "*НЕЗВ'ЯЗНІ ЗВУКИ*",
+			"color": "announcement",
+			"length": 1.0
+		}
+	],
+	"SFX\\SCP\\079\\Broadcast4.ogg": [
+		{
+			"text": "*НЕЗВ'ЯЗНІ ЗВУКИ*",
+			"delay": 1.7,
+			"color": "announcement",
+			"length": 1.0
+		}
+	],
+	"SFX\\SCP\\079\\Broadcast5.ogg": [
+		{
+			"text": "*НЕЗВ'ЯЗНІ ЗВУКИ* РОЗБІР...",
+			"delay": 3.4,
+			"color": "announcement",
+			"length": 1.0
+		}
+	],
+	"SFX\\SCP\\079\\Broadcast6.ogg": [
+		{
+			"text": "*НЕЗВ'ЯЗНІ ЗВУКИ* ПЛОЩА...",
+			"color": "announcement",
+			"length": 2.0
+		}
+	],
+	"SFX\\SCP\\079\\Broadcast7.ogg": [
+		{
+			"text": "Я ДУМАЮ...-",
+			"delay": 0.15,
+			"color": "announcement",
+			"length": 2.0
+		},
+		{
+			"text": "ТОМУ...-",
+			"delay": 1.65,
+			"color": "announcement",
+			"length": 1.0
+		},
+		{
+			"text": "Я Є...-",
+			"delay": 2.7,
+			"color": "announcement",
+			"length": 1.0
+		}
+	],
+	/* 106 */
+	"SFX\\SCP\\106\\Laugh.ogg": [
+		{
+			"text": "*СМІХ*",
+			"color": "106",
+			"length": 3.0
+		}
+	],
+	/* 682 */
+	"SFX\\SCP\\682\\Roar.ogg": [
+		{
+			"text": "*РЕВІТ*",
+			"color": "682"
+		},
+		{
+			"text": "*РЕВІТ*",
+			"delay": 6.5,
+			"color": "682"
+		}
+	],
+	"SFX\\Alarm\\Alarm1_8.ogg": [
+		{
+			"text": "*РЕВІТ*",
+			"delay": 2.1,
+			"color": "682",
+			"length": 2.0
+		}
+	],
+	/* D-9341 DRINK SOUNDS */
+	"SFX\\SCP\\294\\Ahh.ogg": [
+		{
+			"text": "Аххх...",
+			"delay": 1.5,
+			"length": 2.0,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\294\\Burn.ogg": [
+		{
+			"text": "*БІЛЬ*",
+			"delay": 0.2,
+			"length": 2.0,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\294\\Ew0.ogg": [
+		{
+			"text": "*ФУ*",
+			"delay": 1.5,
+			"length": 2.0,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\294\\Ew1.ogg": [
+		{
+			"text": "*ФУ*",
+			"delay": 1.5,
+			"length": 2.0,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\294\\Cough.ogg": [
+		{
+			"text": "*БУХИКАННЯ*",
+			"delay": 1.2,
+			"length": 2.0,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\294\\Retch0.ogg": [
+		{
+			"text": "*ЗВУКИ БЛЮВАННЯ*",
+			"length": 2.0,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\294\\Retch1.ogg": [
+		{
+			"text": "*ЗВУКИ БЛЮВАННЯ*",
+			"length": 2.0,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\294\\Slurp.ogg": [
+		{
+			"text": "*СЬОРБ*",
+			"length": 2.0,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\294\\Spit.ogg": [
+		{
+			"text": "*ЗВУКИ ХАРКАННЯ ТА КАШЛЮ*",
+			"delay": 1.0,
+			"length": 2.0,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\294\\Vomit.ogg": [
+		{
+			"text": "*ЗВУКИ БЛЮВАННЯ ТА ПИРХАННЯ*",
+			"color": "classd"
+		}
+	],
+	/* 860-2 */
+	"SFX\\SCP\\860_2\\Cancer0.ogg": [
+		{
+			"text": "*ROARS*",
+			"color": "860-2",
+			"length": 3.0
+		}
+	],
+	"SFX\\SCP\\860_2\\Cancer1.ogg": [
+		{
+			"text": "*РЕВІТ*",
+			"color": "860-2",
+			"length": 4.0
+		}
+	],
+	"SFX\\SCP\\860_2\\Cancer2.ogg": [
+		{
+			"text": "*РЕВІТ*",
+			"color": "860-2",
+			"length": 3.0
+		}
+	],
+	"SFX\\SCP\\860_2\\Cancer3.ogg": [
+		{
+			"text": "*РЕВІТ*",
+			"color": "860-2",
+			"length": 3.0
+		}
+	],
+	"SFX\\SCP\\860_2\\Cancer4.ogg": [
+		{
+			"text": "*РЕВІТ*",
+			"color": "860-2",
+			"length": 3.0
+		}
+	],
+	"SFX\\SCP\\860_2\\Cancer5.ogg": [
+		{
+			"text": "*РЕВІТ*",
+			"color": "860-2",
+			"length": 2.0
+		}
+	],
+	/* 939-1 */
+	"SFX\\SCP\\939\\0Lure0.ogg": [
+		{
+			"text": "Агов?"
+		}
+	],
+	"SFX\\SCP\\939\\0Lure1.ogg": [
+		{
+			"text": "Тут хтось є?"
+		}
+	],
+	"SFX\\SCP\\939\\0Lure2.ogg": [
+		{
+			"text": "Подумати тільки, саме сьогодні."
+		}
+	],
+	"SFX\\SCP\\939\\0Lure3.ogg": [
+		{
+			"text": "*ЗІТХАЄ*, сподіваюся, з рештою все гаразд."
+		}
+	],
+	"SFX\\SCP\\939\\0Lure4.ogg": [
+		{
+			"text": "Цікаво, що там в біса відбувається."
+		}
+	],
+	"SFX\\SCP\\939\\0Lure5.ogg": [
+		{
+			"text": "*ЗІТХАЄ*"
+		}
+	],
+	"SFX\\SCP\\939\\0Lure6.ogg": [
+		{
+			"text": "А-агов?"
+		}
+	],
+	"SFX\\SCP\\939\\0Lure7.ogg": [
+		{
+			"text": "Є-є хтось там?"
+		}
+	],
+	"SFX\\SCP\\939\\0Lure8.ogg": [
+		{
+			"text": "Дослідник Том диспетчерській, відповідайте."
+		}
+	],
+	"SFX\\SCP\\939\\0Lure9.ogg": [
+		{
+			"text": "Дослідник Том диспетчерській, є хтось там?"
+		}
+	],
+	"SFX\\SCP\\939\\0Alert0.ogg": [
+		{
+			"text": "Хто там, чорт забирай?!"
+		}
+	],
+	"SFX\\SCP\\939\\0Alert1.ogg": [
+		{
+			"text": "Явись!"
+		}
+	],
+	"SFX\\SCP\\939\\0Alert2.ogg": [
+		{
+			"text": "Хто там?!"
+		}
+	],
+	"SFX\\SCP\\939\\0Attack0.ogg": [
+		{
+			"text": "АХХХ!"
+		}
+	],
+	"SFX\\SCP\\939\\0Attack1.ogg": [
+		{
+			"text": "АХХХ!"
+		}
+	],
+	"SFX\\SCP\\939\\0Attack2.ogg": [
+		{
+			"text": "АХХХ!"
+		}
+	],
+	/* 939-2 */
+	"SFX\\SCP\\939\\1Lure0.ogg": [
+		{
+			"text": "А-агов?"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure1.ogg": [
+		{
+			"text": "Хм, можливо, я просто чую щось."
+		}
+	],
+	"SFX\\SCP\\939\\1Lure2.ogg": [
+		{
+			"text": "Агов? Хто там?"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure3.ogg": [
+		{
+			"text": "З вами все гаразд?"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure4.ogg": [
+		{
+			"text": "Де ви?"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure5.ogg": [
+		{
+			"text": "Ви поранені?"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure6.ogg": [
+		{
+			"text": "Агов?"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure7.ogg": [
+		{
+			"text": "Агов?"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure8.ogg": [
+		{
+			"text": "Хто тут?"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure9.ogg": [
+		{
+			"text": "Є хтось?"
+		}
+	],
+	"SFX\\SCP\\939\\1Alert0.ogg": [
+		{
+			"text": "Що ти чорт забирай таке?"
+		}
+	],
+	"SFX\\SCP\\939\\1Alert1.ogg": [
+		{
+			"text": "Гей, хто там?!"
+		}
+	],
+	"SFX\\SCP\\939\\1Alert2.ogg": [
+		{
+			"text": "О Боже, що це чорт забирай таке!?"
+		}
+	],
+	"SFX\\SCP\\939\\1Attack0.ogg": [
+		{
+			"text": "АХХХ!"
+		}
+	],
+	"SFX\\SCP\\939\\1Attack1.ogg": [
+		{
+			"text": "НІ!"
+		}
+	],
+	"SFX\\SCP\\939\\1Attack2.ogg": [
+		{
+			"text": "НІ! АХХХ!"
+		}
+	],
+	/* 939-3 */
+	"SFX\\SCP\\939\\2Lure0.ogg": [
+		{
+			"text": "Агов?",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure1.ogg": [
+		{
+			"text": "Хлопці, ви де? Я вас не бачу.",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure2.ogg": [
+		{
+			"text": "Виходьте, хлопці, досить ховатися.",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure3.ogg": [
+		{
+			"text": "Ну ж бо, хлопці. Сюди надсилають команду евакуації. Нам потрібно дістатися до одного з укриттів.",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure4.ogg": [
+		{
+			"text": "Нумо, хлопці.",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure5.ogg": [
+		{
+			"text": "Хлопці?",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure6.ogg": [
+		{
+			"text": "Агов?",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure7.ogg": [
+		{
+			"text": "Агов?",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure8.ogg": [
+		{
+			"text": "Де ви?",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure9.ogg": [
+		{
+			"text": "Де ви?",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Alert0.ogg": [
+		{
+			"text": "О, слава Богу, це просто хтось ще.",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Alert1.ogg": [
+		{
+			"text": "О, ось ви де.",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Alert2.ogg": [
+		{
+			"text": "Я гадав, що на мить втратив вас.",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Attack0.ogg": [
+		{
+			"text": "AХХХ!",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Attack1.ogg": [
+		{
+			"text": "AХХХ!",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Attack2.ogg": [
+		{
+			"text": "AХХХ!",
+			"color": "crew"
+		}
+	],
+	/* 1499-1 */
+	"SFX\\SCP\\1499\\Idle0.ogg": [
+		{
+			"text": "*СКРЕГІТ*",
+			"color": "1499-1"
+		}
+	],
+	"SFX\\SCP\\1499\\Idle1.ogg": [
+		{
+			"text": "*СКРЕГІТ*",
+			"delay": 0.5,
+			"color": "1499-1",
+			"length": 2.0
+		}
+	],
+	"SFX\\SCP\\1499\\Idle2.ogg": [
+		{
+			"text": "*СКРЕГІТ*",
+			"color": "1499-1",
+			"length": 2.0
+		}
+	],
+	"SFX\\SCP\\1499\\Idle3.ogg": [
+		{
+			"text": "*СКРЕГІТ*",
+			"color": "1499-1",
+			"length": 2.0
+		}
+	],
+	"SFX\\SCP\\1499\\Triggered.ogg": [
+		{
+			"text": "*СКРЕГІТ*",
+			"color": "1499-1"
+		}
+	],
+	/* JOKE SCPS */
+	"SFX\\SCP\\Joke\\789J.ogg": [
+		{
+			"text": "Я привид дупи.",
+			"delay": 0.15
+		},
+		{
+			"text": "Я з'їм твою дупу.",
+			"delay": 3.85
+		}
+	],
+	/* RADIO */
+	"SFX\\Radio\\Chatter0.ogg": [
+		{
+			"text": "Докторе Мейнард, будь ласка, з'явіться до воріт B.",
+			"delay": 0.45
+		},
+		{
+			"text": "Ем, докторе Мейнард, ви чуєте?",
+			"delay": 6.7
+		},
+		{
+			"text": "Це агент Ульгрін, сер. Боюся, доктор Мейнард все ще всередині об'єкту.",
+			"delay": 9.67
+		},
+		{
+			"text": "Ох, ем, чи маєте ви якісь уявлення про його місцезнаходження, він ще живий?",
+			"delay": 15.2
+		},
+		{
+			"text": "Ні, сер. Все, що ми знаємо, це те, що він ще не вибрався.",
+			"delay": 20.1
+		},
+		{
+			"text": "Зрозуміло. Ем, це місце — клятий лабіринт, а він працює тут лише тиждень. Тож не дивно, що він не зміг знайти вихід. Сподіваюся, він все ще тримається.",
+			"delay": 24.65
+		},
+		{
+			"text": "Гадаю, ми дізнаємося, коли прибуде МОГ.",
+			"delay": 35.6
+		}
+	],
+	"SFX\\Radio\\Chatter1.ogg": [
+		{
+			"text": "Це начальник служби безпеки Франклін. Докторе Гарп, ви чуєте?",
+			"delay": 0.35
+		},
+		{
+			"text": "Це доктор Гарп, я зараз зайнятий, тому прошу вас бути лаконічним.",
+			"delay": 6.96
+		},
+		{
+			"text": "Гадаю, що звіт про інцидент з порушенням утримання 106-го сьогодні вранці все ще знаходиться на вашому комп'ютері.",
+			"delay": 11.69
+		},
+		{
+			"text": "Так, правильно. Якщо ви зможете дістатися до мого офісу, можете його прочитати.",
+			"delay": 18.5
+		},
+		{
+			"text": "Ми можемо просто прочитати файл через внутрішню мережу закладу. Звичайно, для цього нам знадобиться ваш особистий код доступу.",
+			"delay": 23.45
+		},
+		{
+			"text": "Ох так, звучить чудово! Як я вже казав, я зараз дуже зайнятий, ми проводимо невелику нараду з МОГ перед тим, як відправити їх на завдання. Я прийду і дам вам код, коли ми закінчимо. Це не займе більше п'ятнадцяти хвилин.",
+			"delay": 30.9
+		},
+		{
+			"text": "Вибачте, але нам потрібен цей файл негайно! Я розумію, що це суперечить протоколу безпеки. Але з огляду на обставини, чи не могли б ви просто передати мені код по радіо? Гадаю, на даний момент, ситуація не може погіршитися, незалежно від того, хто нас зараз слухає.",
+			"delay": 44.1
+		},
+		{
+			"text": "Ну, так, г-гадаю, ви праві. Код 7-8-1-6.",
+			"delay": 62.8
+		},
+		{
+			"text": "Зрозуміло.",
+			"delay": 69.78
+		}
+	],
+	"SFX\\Radio\\Chatter2.ogg": [
+		{
+			"text": "Ем, здається, хтось вимкнув систему дистанційного керування дверима.",
+			"delay": 0.4
+		}
+	],
+	"SFX\\Radio\\Chatter3.ogg": [
+		{
+			"text": "Рух у секторі B.",
+			"delay": 0.5
+		},
+		{
+			"text": "Ем, схоже це клас D.",
+			"delay": 3.4
+		},
+		{
+			"text": "Хех, ставлю п'ятдесят баксів, що він не протримається ще п'яти хвилин.",
+			"delay": 7.85
+		}
+	],
+	"SFX\\Radio\\Franklin0.ogg": [
+		{
+			"text": "МОГ «Дев'ятихвоста лисиця» готується до входу. Тримайтеся! Скоро все це закінчиться.",
+			"delay": 0.65
+		}
+	],
+	"SFX\\Radio\\Franklin1.ogg": [
+		{
+			"text": "Всім, хто ще перебуває всередині об'єкта, залишайтеся в евакуаційних укриттях. Не намагайтеся дістатися до виходів, незалежно від того, наскільки вони близько. Укриття — це ваш найкращий шанс вижити.",
+			"delay": 0.6
+		}
+	],
+	"SFX\\Radio\\Franklin2.ogg": [
+		{
+			"text": "Всім, хто ще це чує, повідомляємо, що під час порушення утримання такого масштабу часто трапляються події, які спотворюють реальність. Не довіряйте своїм відчуттям! Не довіряйте нікому і нічому.",
+			"delay": 0.635
+		}
+	],
+	"SFX\\Radio\\Franklin3.ogg": [
+		{
+			"text": "Всім, хто ще це чує, події, що викривляють реальність, є звичайним явищем під час порушень утримання такого масштабу.",
+			"delay": 0.635
+		},
+		{
+			"text": "Під час порушення утримання такого масштабу.",
+			"delay": 8.22
+		},
+		{
+			"text": "Під час порушення утримання такого масштабу.",
+			"delay": 12.1
+		},
+		{
+			"text": "*НЕЗВ'ЯЗНІ ЗВУКИ*",
+			"delay": 15.61
+		}
+	],
+	"SFX\\Radio\\OhGod.ogg": [
+		{
+			"text": "Агов? Є хто-небудь?",
+			"delay": 1.76
+		},
+		{
+			"text": "Я не знаю, що- Я не-",
+			"delay": 6.37
+		},
+		{
+			"text": "О Боже, воно наближається... Хто-небудь, будь ласка, будь-хто... будь ласка...",
+			"delay": 9.85
+		},
+		{
+			"text": "Хтось повинен передати це в ефір, будь ласка...",
+			"delay": 15.45
+		},
+		{
+			"text": "О Боже, що це? Що це?",
+			"delay": 20.7
+		}
+	],
+	"SFX\\Radio\\RadioAlarm1.ogg": [
+		{
+			"text": "На об'єкті спостерігаються численні порушення рівнів безпеки Кетер та Евклід. Почато повну блокаду об'єкту.",
+			"delay": 0.62
+		}
+	],
+	"SFX\\Radio\\SCPRadio1.ogg": [
+		{
+			"text": "Ви слухаєте радіостанцію фонда SCP! Ваше джерело попередньо записаних повідомлень, яке працює цілодобово без вихідних.",
+			"delay": 4.0
+		}
+	],
+	"SFX\\Radio\\SCPRadio2.ogg": [
+		{
+			"text": "Нагадуємо, що в разі настання кінця світу за сценарієм класу XK, не панікуйте. Це не допоможе.",
+			"delay": 3.2
+		},
+		{
+			"text": "Ніщо не допоможе.",
+			"delay": 11.3
+		},
+		{
+			"text": "Однак паніка, мабуть, допоможе найменш.",
+			"delay": 13.5
+		}
+	],
+	"SFX\\Radio\\SCPRadio3.ogg": [
+		{
+			"text": "Негайно повідомляйте про всі підозрілі дії своїм керівникам. Якщо ви останнім часом не помітили нічого незвичайного, значить, ви недостатньо уважно спостерігаєте. Загроза безпеці може виникнути з будь-якого боку, і ніхто не може бути впевнений у своїй безпеці. Навіть ви.",
+			"delay": 2.9
+		},
+		{
+			"text": "Будьте пильними. Будьте насторожі.",
+			"delay": 18.92
+		}
+	],
+	"SFX\\Radio\\SCPRadio4.ogg": [
+		{
+			"text": "Якщо ви почуєте інший голос, що оголошує по радіостанції фонду SCP, повністю ігноруйте його. Він не є співробітником фонду. Він намагатиметься обдурити вас і йому не можна довіряти. Будь-яка порада, яку він дасть, неминуче призведе до руйнування, смерті та повного хаосу. Вам набагато краще слухати мене.",
+			"delay": 3.5
+		}
+	],
+	"SFX\\Radio\\SCPRadio5.ogg": [
+		{
+			"text": "У надзвичайно малоймовірному випадку катастрофічного відключення електроенергії та подальшому порушенню утриманнь об'єктів, просто запам'ятайте основні правила поведінки в кризовій ситуації (АБВ). А — атака. Б — блимання, якщо його немає. І В — витривалість. Як то кажуть, стріляйте, дивіться і біжіть! Або нагодуйте наближающегося об'єкта одним зі своїх друзів.",
+			"delay": 3.8
+		},
+		{
+			"text": "Будьте живими. Будьте пильними.",
+			"delay": 29.3
+		}
+	],
+	"SFX\\Radio\\SCPRadio6.ogg": [
+		{
+			"text": "Все, що він говорить, є брехнею.",
+			"delay": 10.1
+		},
+		{
+			"text": "Кожне слово.",
+			"delay": 14.7
+		},
+		{
+			"text": "Не слухай його.",
+			"delay": 19.6
+		},
+		{
+			"text": "Ти можеш довіряти мені.",
+			"delay": 24.0
+		},
+		{
+			"text": "Я можу витягнути тебе з цього.",
+			"delay": 29.65
+		},
+		{
+			"text": "Я можу вивести тебе з усього цього.",
+			"delay": 33.75
+		},
+		{
+			"text": "Просто послухай мене.",
+			"delay": 40.4
+		}
+	],
+	"SFX\\Radio\\SCPRadio7.ogg": [
+		{
+			"text": "Не забудьте, середа — день піци! Тож прямуйте до кафетерію і візьміть собі гарячий шматочок!",
+			"delay": 2.6
+		},
+		{
+			"text": "(Фонд SCP не несе відповідальності за будь-які травми чи захворювання, отримані під час відвідування дня піци.)",
+			"delay": 11.7
+		}
+	],
+	"SFX\\Radio\\SCPRadio8.ogg": [
+		{
+			"text": "Під час обіду в кафетерії закладу завжди пам'ятайте, перевіряйте свої раціони на наявність «смертельної сімки»: стрихніну, триоксиду миш'яку, нітробензолу, ртуті, епіхлоргідрину, ацетону, тіосемікарбазону та павуків. Будьте здорові! Будьте пильні.",
+			"delay": 3.2
+		}
+	],
+	/* ENDINGS - GATE A */
+	"SFX\\Ending\\GateA\\Franklin.ogg": [
+		{
+			"text": "SCP-106 втік з об'єкта через ворота А! Негайно відкрийте вогонь з турелі ВІР! Не дайте йому перейти міст!",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Ending\\GateA\\STOPRIGHTTHERE.ogg": [
+		{
+			"text": "Стій на місці!",
+			"delay": 0.25,
+			"color": "mtf"
+		},
+		{
+			"text": "Клас D знайдено.",
+			"delay": 3.75,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Ending\\GateA\\CI.ogg": [
+		{
+			"text": "Ти знаєш занадто багато, щоб дозволити їм тебе схопити. Ти йдеш з нами.",
+			"color": "chaos"
+		}
+	],
+	"SFX\\Ending\\Ending0.ogg": [
+		{
+			"text": "Сер, в нас тут серйозна проблема!",
+			"delay": 0.8,
+			"color": "mtf"
+		},
+		{
+			"text": "Будь ласка, поясніть детальніше. Ціль вже захоплена?",
+			"delay": 4.5,
+			"color": "mtf"
+		},
+		{
+			"text": "Я не впевнений, що тут відбувається. Ми увійшли в старий службовий тунель, і він ніби... закрився з нами. Тепер ми застрягли всередині. Сандерс загинув. Ціль втрачена!",
+			"delay": 9.4,
+			"length": 12.0,
+			"color": "mtf"
+		},
+		{
+			"text": "Ви маєте на увазі, що тунель обвалився на вас?",
+			"delay": 21.9,
+			"color": "mtf"
+		},
+		{
+			"text": "Ні! Він не обвалився. Це було схоже на аномальне явище. Приїжджайте і подивіться самі, і надішліть когось, щоб нас звідси витягнути!",
+			"delay": 25.5,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Ending\\Ending1.ogg": [
+		{
+			"text": "Журнал випробувань [ВІДРЕДАГОВАНО]. Суб'єкт [ВІДРЕДАГОВАНО]-[ВІДРЕДАГОВАНО].",
+			"delay": 2.1
+		},
+		{
+			"text": "Суб'єкт демонструє надзвичайну вдачу та повне володіння навіть у найнебезпечніших обставинах, а також надзвичайну здатність передбачати навіть найнепередбачуваніші небезпеки, майже так, ніби він вже виконував ці неможливі завдання раніше.",
+			"delay": 7.8,
+			"length": 16.0
+		},
+		{
+			"text": "Необхідно провести додаткові тестування, щоб визначити, чи слід надати суб'єкту класифікацію SCP.",
+			"delay": 24.4
+		}
+	],
+	/* ENDINGS - GATE B */
+	"SFX\\Ending\\GateB\\682Battle.ogg": [
+		{
+			"text": "SCP-682 щойно втік крізь ворота B. Потрібні всі доступні вертольоти та підрозділи МОГ біля воріт B, негайно!",
+			"delay": 5.65,
+			"color": "announcement"
+		},
+		{
+			"text": "Повторюю, SCP-682 втік з об'єкта! Всі доступні вертольоти та підрозділи МОГ до воріт B, негайно!",
+			"delay": 13.8,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Ending\\GateB\\DetonatingAlphaWarheads.ogg": [
+		{
+			"text": "Ми підриваємо Альфа боєголовки через 90 секунд! Всім співробітникам рекомендується негайно сісти в найближчий вертоліт або увійти в найближче протибомбове укриття.",
+			"delay": 0.42,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Ending\\GateB\\AlphaWarheadsFail.ogg": [
+		{
+			"text": "З невідомих причин нам не вдалося підірвати боєголовки. Всім вертольотам та підрозділам МОГ негайно повернутися до воріт B. Захоплення SCP-682 тепер є нашим головним пріоритетом.",
+			"delay": 0.38,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Ending\\GateB\\THEREHEIS.ogg": [
+		{
+			"text": "Ось він! Стріляйте!",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Ending\\Ending2.ogg": [
+		{
+			"text": "Сер, ми знайшли мертвий клас D на проході біля воріт B. У нього кілька вогнепальних поранень у грудях. Я припускаю, що його застрелили, коли ми боролися з SCP-682.",
+			"delay": 0.5,
+			"length": 12.0,
+			"color": "mtf"
+		},
+		{
+			"text": "Я хотів би знати, як, чорт забирай, представник класу D пройшов через ворота? Принесіть мені записи з камер спостереження біля воріт і з'ясуйте, хто там чергував до і під час спроби втечі 682-го.",
+			"delay": 11.5,
+			"length": 16.0,
+			"color": "mtf"
+		},
+		{
+			"text": "Зрозуміло, сер.",
+			"delay": 26.0,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Ending\\Ending3.ogg": [
+		{
+			"text": "Це CH-1 до OH-6, ви знайшли ціль, прийом?",
+			"color": "mtf"
+		},
+		{
+			"text": "OH-6 до CH-1, ціль не виявлено. Гадаю, нам слід відправити МОГ-..",
+			"delay": 6.05,
+			"color": "mtf"
+		},
+		{
+			"text": "*РЕВІТ*",
+			"delay": 10.95,
+			"color": "682"
+		},
+		{
+			"text": "CH-1 до OH-6, ви чуєте?",
+			"delay": 14.95,
+			"color": "mtf"
+		}
+	],
+	/* AMBIENTS */
+	"SFX\\Ambient\\Forest\\Ambient6.ogg": [
+		{
+			"text": "*КРИК*",
+			"length": 2.0
+		}
+	],
+	"SFX\\Room\\035Chamber\\Whispers0.ogg": [
+		{
+			"text": "*ШЕПІТ*",
+			"color": "066"
+		}
+	],
+	"SFX\\Room\\035Chamber\\Whispers1.ogg": [
+		{
+			"text": "*ШЕПІТ*",
+			"color": "066"
+		}
+	],
+	"SFX\\Room\\Intro\\Commotion\\Commotion2.ogg": [
+		{
+			"text": "*КРИК*",
+			"length": 2.0
+		}
+	],
+	"SFX\\Room\\Intro\\Commotion\\Commotion11.ogg": [
+		{
+			"text": "*СМІХ*",
+			"color": "106",
+			"length": 2.0
+		}
+	],
+	"SFX\\Room\\Intro\\Commotion\\Commotion18.ogg": [
+		{
+			"text": "*НЕЗВ'ЯЗНІ ЗВУКИ*"
+		},
+		{
+			"text": "*КРИК*",
+			"delay": 3.5
+		},
+		{
+			"text": "*КРИК*",
+			"delay": 7.5
+		}
+	],
+	"SFX\\Room\\Intro\\Commotion\\Commotion19.ogg": [
+		{
+			"text": "*КРИК*",
+			"length": 2.0
+		}
+	],
+	"SFX\\Room\\Intro\\Commotion\\Commotion20.ogg": [
+		{
+			"text": "*ЗАДИХАЄТЬСЯ*",
+			"delay": 2.0
+		},
+		{
+			"text": "Не бійся, я – ліки.",
+			"delay": 9.0,
+			"color": "049"
+		}
+	],
+	"SFX\\Room\\Intro\\Commotion\\Commotion23.ogg": [
+		{
+			"text": "*КРИК*",
+			"length": 3.0
+		}
+	],
+	"SFX\\Room\\Intro\\Commotion\\Commotion24.ogg": [
+		{
+			"text": "*КРИК*",
+			"delay": 2.1,
+			"length": 2.0
+		},
+		{
+			"text": "*СМІХ*",
+			"delay": 3.3,
+			"color": "106"
+		}
+	]
+}
